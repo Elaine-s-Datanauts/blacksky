@@ -45,7 +45,7 @@ BlackSky builds a **suspiciousness scoring system** to:
 
 2. **Feature Engineering**
 
-   - Calculate anomaly scores (Isolation Forest / One-Class SVM).
+   - Calculate anomaly scores (Isolation Forest).
    - Derive rolling 7-day anomaly counts and fractions.
    - Assign orbital regimes (LEO, MEO, GEO, HEO, SSO).
    - Correlate anomalies with **space weather and GNSS disruptions**.
