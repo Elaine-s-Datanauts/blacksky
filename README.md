@@ -63,16 +63,4 @@ BlackSky builds a **suspiciousness scoring system** to:
 
 ## 📊 Power BI Dashboard
 
-The dashboard provides:
-
-- **High-Level KPIs**
-  - Number of suspicious satellites in the last 7 days
-  - Regime breakdowns
-  - GNSS outages correlated with solar activity
-- **Trend Visualizations**
-  - Anomaly fractions over time
-  - Rolling anomaly windows
-  - GNSS signal availability vs. space weather
-- **Investigative Views**
-  - Satellite-level detail with metadata
-  - Heatmaps of anomalies by day
+![Power BI Dashboard](https://github.com/Elaine-s-Datanauts/blacksky/blob/main/images/Screenshot%202025-09-07%20220413.png)
