@@ -4,7 +4,7 @@
 ![Built With](https://img.shields.io/badge/Built%20With-Orbital%20Mechanics%20%26%20ML-purple)
 ![Datathon](https://img.shields.io/badge/Datathon-Women%20in%20Data%202025-black)
 
-# 🛰️ Project BlackSky: Watching the Watchers
+# 🛰️ PROJECT BLACK SKY: Watching the Watchers
 
 > _"Suspicious skies, revealed."_
 
