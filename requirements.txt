@@ -1,0 +1,10 @@
+pandas==2.2.2
+requests==2.32.3
+spacetrack==0.16.0
+python-dotenv==1.0.1
+numpy==1.26.4
+scikit-learn==1.5.1
+matplotlib==3.9.2
+ipython==8.26.0
+jupyter==1.1.1
+notebook==7.2.2

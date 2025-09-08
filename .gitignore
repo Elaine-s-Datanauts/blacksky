@@ -1,0 +1,6 @@
+/v312
+.ipynb_checkpoints
+*.env
+*.csv
+*.xlsx
+*.pbix
