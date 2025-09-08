@@ -63,4 +63,6 @@ BlackSky builds a **suspiciousness scoring system** to:
 
 ## 📊 Power BI Dashboard
 
-![Power BI Dashboard](https://github.com/Elaine-s-Datanauts/blacksky/blob/main/images/Screenshot%202025-09-07%20220413.png)
+![Page 1](https://github.com/Elaine-s-Datanauts/blacksky/blob/main/images/Screenshot%202025-09-07%20220413.png)
+![Page 2](https://github.com/Elaine-s-Datanauts/blacksky/blob/main/images/Screenshot%202025-09-07%20222201.png)
+![Page 3](https://github.com/Elaine-s-Datanauts/blacksky/blob/main/images/Screenshot%202025-09-07%20222348.png)
