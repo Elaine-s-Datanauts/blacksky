@@ -1,18 +1,20 @@
-The following is the script used to present the project.
-
 SLIDE 01 ---------------------------------------------------------------------------------------------------------------
 
 Hello everyone, I'm Saarah and I'm excited to share Project Black Sky.
 
 Our mission: To detect suspicious behavior by combining orbital data, anomaly detection, and space weather impact analysis.
 
-Think of it as a "Spy satellite fingerprint spotting" for when satellites behave oddly compare to their peers.
+Think of it as a "Spy satellite fingerprint spotting for when satellites behave oddly compare to their peers.
 
 SLIDE 02 ---------------------------------------------------------------------------------------------------------------
 
-We start by pulling satellite orbital data from Space Track and metadata from the UCS Satellite Database.
+We start by pulling satellite orbital data from Space Track and metadata from the UCS Satellite Database. We cleaned, deduplicated, and merged them by Norad ID. 
 
-We cleaned, deduplicated, and merged them into three key outputs:
+We used physics-informed features and paid special attention to RAAN drift vs. J2 perturbation model.
+
+SLIDE 03 ---------------------------------------------------------------------------------------------------------------
+
+We then used isolation forest for anomaly detection which produced these three key outputs:
 
 	• anomalous_rows.csv – containing event-level records of anomalies
 	• scores.csv – containing satellite-level suspiciousness scores
@@ -20,7 +22,7 @@ We cleaned, deduplicated, and merged them into three key outputs:
 
 These files feed directly into Power BI for analysis.
 
-SLIDE 03 ---------------------------------------------------------------------------------------------------------------
+SLIDE 04 ---------------------------------------------------------------------------------------------------------------
 
 Let's walkthrough the interactive dashboard in Power BI.
 
@@ -34,7 +36,7 @@ On the right, we have a detailed table of satellites. This includes orbit type, 
 
 Finally, at the bottom, we’ve added a reset button, so analysts can clear all filters and return to the full global picture with a single click.
 
-SLIDE 04 ---------------------------------------------------------------------------------------------------------------
+SLIDE 05 ---------------------------------------------------------------------------------------------------------------
 
 On this page, we’ve drilled down into a single high-risk satellite.
 
@@ -53,7 +55,7 @@ This layout allows us to track how a satellite’s behavior evolves. For example
 Down at the bottom, we still have anomaly toggles – Outlier Behavior, Persistent Red Flags, and Fresh Anomalies – which let analysts highlight specific types of irregularities.
 
 
-SLIDE 05 ---------------------------------------------------------------------------------------------------------------
+SLIDE 06 ---------------------------------------------------------------------------------------------------------------
 
 This page gives us the bigger picture of anomaly activity over time.
 
@@ -72,7 +74,7 @@ In contrast, most satellites remain pale blue, indicating little or no anomaly a
 This view makes it easy to spot both broad trends across orbit classes and specific satellites that stand out for persistent abnormal behavior.
 
 
-SLIDE 06 ---------------------------------------------------------------------------------------------------------------
+SLIDE 07 ---------------------------------------------------------------------------------------------------------------
 
 Our full pipeline and dashboard are open-sourced on GitHub under the datathon-2025 repo.
 
