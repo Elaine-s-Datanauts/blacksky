@@ -1,6 +1,13 @@
 /v312
 .ipynb_checkpoints
 *.env
-*.csv
-*.xlsx
-*.pbix
+# *.csv
+# *.xlsx
+# *.pbix
+slides/Saarah/~$Project Black Sky - Watching the Watchers.pptx
+.pernotes
+.mypy_cache
+.pytest_cache
+.DS_Store
+.venv
+.vscode
